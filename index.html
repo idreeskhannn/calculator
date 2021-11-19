@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 id="hh">Simple calculator</h1>
+    <div class="container"> 
+
+      
+        <div class="result">
+          <p id="result-box" ></p>
+        </div>
+    
+    
+        <div class="buttons">
+          <div class="button action-btn" id="clear" onclick="allClear()"> AC </div>
+          <div class="button action-btn" onclick="remValue()"> C</div>
+          <div class="button num-button  action-btn" id="pause" onclick="resultBox('%')"> %</div>
+          <div class="button num-button  calc-action-btn" id="pause" onclick="resultBox('/')"> /</div>
+          <div class="button num-button seven" onclick="resultBox('7')">7</div>
+          <div class="button num-button eight" onclick="resultBox(8)">8</div>
+          <div class="button num-button  nine" onclick="resultBox(9)">9</div>
+          <div class="button num-button  calc-action-btn" id="pause" onclick="resultBox('*')">*</div>
+          <div class="button num-button  four" onclick="resultBox(4)">4</div>
+          <div class="button num-button  five" onclick="resultBox(5)">5</div>
+          <div class="button num-button  six" onclick="resultBox(6)">6</div>
+          <div class="button num-button  calc-action-btn" id="pause" onclick="resultBox('-')">-</div>
+          <div class="button num-button  one" onclick="resultBox(1)">1</div>
+          <div class="button num-button  two" onclick="resultBox(2)">2</div>
+          <div class="button num-button  three " onclick="resultBox(3)" >3</div>
+          <div class="button num-button  calc-action-btn" id="pause" onclick="resultBox('+')" >+</div>
+          <div class="button num-button  zero" onclick="resultBox(0)">0</div>
+          <div class="button num-button  point" onclick="resultBox('.')"> .</div>
+          <div class="button calc-action-btn" id="total" onclick="result()">=</div>
+        </div>
+    
+      </div>
+    
+    
+</body>
+<script src="app.js"></script>
+</html>
